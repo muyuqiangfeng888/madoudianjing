@@ -710,10 +710,10 @@
   <div class="hero-content">
     <div class="hero-eyebrow">专业电竞服务平台</div>
     <h1 class="hero-title">
-      超越极限<br>
+      专业电竞服务<br>
       <span class="line2"></span>
     </h1>
-    <p class="hero-desc">专业电竞服务<br>助你达成每一个目标</p>
+    <p class="hero-desc">陪玩·跑刀·游戏咨询<br>致力为每位客户提供优质服务</p>
     <div class="hero-actions">
       <a href="#order" class="btn-gold">🔥 立即下单</a>
       <a href="#services" class="btn-outline">查看服务</a>
@@ -747,7 +747,7 @@
 <section class="section services" id="services">
   <div class="container">
     <div class="section-tag">服务项目</div>
-    <h2 class="section-title">全能电竞服务<br>覆盖所有需求</h2>
+    <h2 class="section-title">专业电竞服务<br>满足您的需求</h2>
     <p class="section-sub">专业团队，为您定制专属提升方案</p>
     <div class="services-grid reveal">
       <div class="service-card">
@@ -777,7 +777,7 @@
   <div class="container">
     <div class="section-tag">点单中心</div>
     <h2 class="section-title">精选项目<br>分类下单</h2>
-    <p class="section-sub">选择分类，点击项目查看详情与下单方式</p>
+    <p class="section-sub">⚠️由于暂未接入支付功能，麻烦各位板板扫码支付并在下单后联系客服～</p>
     <div class="category-tabs" id="categoryTabs"></div>
     <div class="order-grid reveal" id="orderGrid"></div>
   </div>
@@ -853,8 +853,8 @@
       </div>
       <div class="adv-card">
         <div class="adv-icon">💬</div>
-        <div class="adv-title">专属客服</div>
-        <div class="adv-desc">一对一专属服务，全程跟进订单状态</div>
+        <div class="adv-title">专业客服</div>
+        <div class="adv-desc">专业服务，全程跟进订单状态</div>
       </div>
     </div>
   </div>
@@ -876,7 +876,7 @@
         </div>
         <div class="step-content">
           <div class="step-title">联系客服咨询</div>
-          <div class="step-desc">微信联系客服，告知游戏名称、当前需求，获取精准报价</div>
+          <div class="step-desc">微信联系客服，告知您的订单，获取精准报价</div>
         </div>
       </div>
       <div class="process-step">
@@ -886,7 +886,7 @@
         </div>
         <div class="step-content">
           <div class="step-title">确认订单付款</div>
-          <div class="step-desc">确认服务内容与价格，支持微信支付/支付宝，付款即锁定服务名额</div>
+          <div class="step-desc">确认服务内容与价格，支持微信支付/支付宝，付款即开始服务</div>
         </div>
       </div>
       <div class="process-step">
@@ -1019,10 +1019,10 @@
   // tag: 公告类型标签  title: 公告标题  body: 详细说明  cta: 详情页按钮文字
   // =====================================================================
   const ANNOUNCEMENTS = [
-    { tag: '🔥 限时活动', title: '新客首单立减10元', text: '首次下单立减10元，微信联系客服报「新客」即可享受优惠，活动不定期更新，先到先得！', cta: '立即下单' },
-    { tag: '📢 服务公告', title: '跑刀服务已全面上线', text: '保底单、赌红单、趣味单、跑刀四大分类服务全面上线，专业团队7×24小时待命，10分钟内安排对应打手。', cta: '查看项目' },
+    { tag: '🔥 限时活动', title: '福利单80r保底1000w', text: '本店新开业，特放出大量80r保底1000w名额，活动截止至6月30日，名额有限，先到先得', cta: '立即下单' },
+    { tag: '📢 服务公告', title: '跑刀服务已全面上线', text: '保底单、赌红单、趣味单、跑刀四大分类服务全面上线，专业团队长时间待命', cta: '查看项目' },
     { tag: '⚡ 快速响应', title: '5分钟接单，随时开打', text: '工作日及节假日均在线，平均接单时间5分钟，付款截图发客服即可确认开始服务，全程跟踪进度。', cta: '联系客服' },
-    { tag: '🛡️ 服务保障', title: '未达标全额退款承诺', text: '所有保底类项目均提供未达标退款保证，赌红类项目明码标价概率公示，下单前充分了解规则，放心消费。', cta: '了解详情' },
+    { tag: '🛡️ 服务保障', title: '未达标全额退款承诺', text: '所有保底类项目均提供未达标退款保证，赌红类趣味类项目明码标价概率公示，下单前充分了解规则，放心消费。', cta: '了解详情' },
   ];
 
   // 公告详情跳转目标（与 cta 文字对应）
@@ -1106,54 +1106,54 @@
 
   const ORDER_ITEMS = [
     // ---------- 保底单 ----------
-    { id:'b1', cat:'baodi', icon:'🛡️', tag:'', name:'体验单', price:60, unit:'局',
+    { id:'b1', cat:'baodi', icon:'🛡️', tag:'热销', name:'体验单', price:60, unit:'单',
       desc:'60r保底600w',
       detail:'体验单每天每人仅限一单。',
       notice:'下单前请仔细阅读以下点单须知' },
-    { id:'b2', cat:'baodi', icon:'🛡️', tag:'限时', name:'福利单', price:80, unit:'局',
+    { id:'b2', cat:'baodi', icon:'🛡️', tag:'限时', name:'福利单', price:80, unit:'单',
       desc:'80r保底1000w',
       detail:'新店开业特拿出大量福利名额，活动截止至6月30日，名额有限先到先得！',
       notice:'下单前请仔细阅读以下点单须知' },
-    { id:'b3', cat:'baodi', icon:'🛡️', tag:'', name:'机密单', price:58, unit:'局',
+    { id:'b3', cat:'baodi', icon:'🛡️', tag:'', name:'机密单', price:58, unit:'单',
       desc:'58r保底500w',
       detail:'对局内出现任何问题请保存录屏联系客服处理。',
       notice:'下单前请仔细阅读以下点单须知' },
-    { id:'b4', cat:'baodi', icon:'🛡️', tag:'', name:'绝密航天＆巴克什', price:78, unit:'局',
+    { id:'b4', cat:'baodi', icon:'🛡️', tag:'', name:'绝密航天＆巴克什', price:78, unit:'单',
       desc:'78r保底700w',
       detail:'对局内出现任何问题请保存录屏联系客服处理。',
       notice:'下单前请仔细阅读以下点单须知' },
-    { id:'b5', cat:'baodi', icon:'🛡️', tag:'', name:'绝密监狱', price:128, unit:'局',
+    { id:'b5', cat:'baodi', icon:'🛡️', tag:'', name:'绝密监狱', price:128, unit:'单',
       desc:'128r保底700w',
       detail:'对局内出现任何问题请保存录屏联系客服处理。',
       notice:'下单前请仔细阅读以下点单须知' },
 
     // ---------- 赌红单 ----------
-    { id:'d1', cat:'duhong', icon:'🎲', tag:'', name:'浮力补偿设备', price:488, unit:'局',
+    { id:'d1', cat:'duhong', icon:'🎲', tag:'', name:'浮力补偿设备', price:488, unit:'单',
       desc:'基础保底3888w，不出不结单',
       detail:'对局内出现任何问题请保存录屏联系客服处理。',
       notice:'下单前请仔细阅读以下点单须知' },
-    { id:'d2', cat:'duhong', icon:'🎲', tag:'高赔率', name:'雷明顿打字机', price:1288, unit:'局',
+    { id:'d2', cat:'duhong', icon:'🎲', tag:'', name:'雷明顿打字机', price:1288, unit:'单',
       desc:'基础保底8888w，不出不结单',
       detail:'对局内出现任何问题请保存录屏联系客服处理。',
       notice:'下单前请仔细阅读以下点单须知' },
-    { id:'d3', cat:'duhong', icon:'🎲', tag:'', name:'卫星锅', price:58, unit:'局',
+    { id:'d3', cat:'duhong', icon:'🎲', tag:'', name:'卫星锅', price:58, unit:'单',
       desc:'基础保底500w，不出不结单',
       detail:'对局内出现任何问题请保存录屏联系客服处理。',
       notice:'下单前请仔细阅读以下点单须知' },
-    { id:'d4', cat:'duhong', icon:'🎲', tag:'', name:'火箭燃料', price:288, unit:'局',
+    { id:'d4', cat:'duhong', icon:'🎲', tag:'热销', name:'火箭燃料', price:288, unit:'单',
       desc:'基础保底2288w，不出不结单',
       detail:'对局内出现任何问题请保存录屏联系客服处理。',
       notice:'下单前请仔细阅读以下点单须知' },
 
     // ---------- 趣味单 ----------
-    { id:'q1', cat:'quwei', icon:'🎉', tag:'敬请期待', name:'加速上架中~', price:0, unit:'局',
+    { id:'q1', cat:'quwei', icon:'🎉', tag:'敬请期待', name:'加速上架中~', price:0, unit:'单',
       desc:'加速上架中~',
       detail:'对局内出现任何问题请保存录屏联系客服处理。',
       notice:'下单前请仔细阅读以下点单须知',
       hidePrice:true },
 
     // ---------- 跑刀 ----------
-    { id:'p1', cat:'paodao', icon:'🔪', tag:'', name:'1000w哈弗币', price:60, unit:'局',
+    { id:'p1', cat:'paodao', icon:'🔪', tag:'', name:'1000w哈弗币', price:60, unit:'单',
       desc:'1000w哈弗币',
       detail:'力求以最快效率完成订单。',
       notice:'若对订单有疑问请及时联系客服' },
