@@ -38,10 +38,13 @@ const PRODUCTS = [
     cat: 'baodi',
     name: '绝密航天＆巴克什',
     price: 78,
-    unit: '局',
+    unit: '单',
     tag: '',
     cover: 'images/products/b1-cover.jpg',
-    detailImage: 'images/products/b1-detail.jpg',
+    detailImage:[
+       'images/products/b1-cover.jpg',
+       'images/products/diandanxuzhi.png'
+       ]
     desc: '78r保底700w',
     detail: '对局内出现任何问题请保存录屏联系客服处理。',
     notice: '下单前请仔细阅读以下点单须知',
