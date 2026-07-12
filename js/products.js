@@ -54,7 +54,7 @@ const PRODUCTS = [
     unit: '局',
     tag: '',
     cover: 'images/products/b2-cover.jpg',
-    detailImage: 'images/products/b2-detail.jpg',
+    detailImage: 'images/products/884.png',
     desc: '98r保底1000w',
     detail: '对局内出现任何问题请保存录屏联系客服处理。',
     notice: '下单前请仔细阅读以下点单须知',
