@@ -336,6 +336,23 @@ button { border: none; cursor: pointer; background: none; font-family: inherit; 
   border: 1px solid rgba(201,162,39,.25);
   padding: 4px 10px; border-radius: 4px; margin-bottom: 14px;
 }
+.platform-toggle { display: none; gap: 10px; margin-bottom: 16px; }
+.platform-btn {
+  flex: 1;
+  padding: 12px 0; border-radius: var(--radius);
+  border: 1px solid var(--border); background: var(--card);
+  color: var(--muted); font-size: 14px; font-weight: 800;
+  letter-spacing: 1px; text-align: center;
+  transition: border-color .2s, color .2s, background .2s, transform .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.platform-btn.active {
+  border-color: var(--gold);
+  background: linear-gradient(135deg, rgba(201,162,39,.25), rgba(201,162,39,.08));
+  color: var(--gold-lt);
+}
+.platform-btn:active { transform: scale(.97); }
+.platform-desc { font-size: 12px; color: var(--muted); margin-top: -16px; margin-bottom: 20px; }
 .order-detail-price { display: flex; align-items: baseline; gap: 2px; margin-bottom: 24px; }
 .order-detail-price .currency { font-size: 18px; font-weight: 800; color: var(--gold); }
 .order-detail-price .num { font-size: 36px; font-weight: 900; color: var(--gold); letter-spacing: -1px; }
