@@ -428,7 +428,7 @@ button { border: none; cursor: pointer; background: none; font-family: inherit; 
   font-size: 24px;
 }
 .contact-icon.wechat { background: linear-gradient(135deg, #1aad19, #0f8c0e); }
-.contact-icon.qq { background: linear-gradient(135deg, #1296db, #0a6fa8); }
+.contact-icon.kook { background: linear-gradient(135deg, #1296db, #0a6fa8); }
 .contact-info { flex: 1; }
 .contact-label { font-size: 11px; color: var(--muted); margin-bottom: 2px; }
 .contact-value { font-size: 15px; font-weight: 800; }
