@@ -35,6 +35,23 @@
 如果想要这个分类有专属的中文名字和图标，去 `products.js` 顶部的
 `CATEGORY_META` 里加一行就行，不加也不会报错（会直接显示 cat 原始值）。
 
+## 手游/端游价格不同怎么配置？
+
+不用做二级页面，详情页里会直接出现"手游／端游"按钮，点哪个价格就变成哪个，
+下单按钮也会跳到对应平台的表单。
+
+在 `js/products.js` 里，把这个项目的 `price` / `unit` 换成 `platforms` 数组：
+
+```js
+platforms: [
+  { key: 'mobile', label: '手游', price: 60, unit: '局', desc: '60r保底600w', formUrl: '手游表单地址' },
+  { key: 'pc',     label: '端游', price: 80, unit: '局', desc: '80r保底600w', formUrl: '端游表单地址' },
+],
+```
+
+参考 `products.js` 里的 `b1` 项目就是这么写的。没有 `platforms` 字段的项目，
+跟以前一样只显示单一价格，不受影响。
+
 ## 联系方式 / 下单表单地址
 
 在 `js/app.js` 顶部：
