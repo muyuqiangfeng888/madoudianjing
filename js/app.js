@@ -9,8 +9,8 @@
 // 只需要在这里改这两个链接，全站所有项目就都跟着换了。
 // 如果某个项目的手游或端游要单独用不同的表单，去 products.js
 // 那个项目的 platforms 里给对应平台加一个 formUrl 字段，会优先用那个。
-const ORDER_FORM_URL_MOBILE = 'https://docs.qq.com/form/page/replace-with-your-mobile-form-id';
-const ORDER_FORM_URL_PC = 'https://docs.qq.com/form/page/replace-with-your-pc-form-id';
+const ORDER_FORM_URL_MOBILE = 'https://doc.weixin.qq.com/smartsheet/s3_Ab4AWwaDAHkCNRV06vi4gR2S3c1Am?scode=AH0AxweMAF8NDP1Y6o';
+const ORDER_FORM_URL_PC = 'https://doc.weixin.qq.com/smartsheet/s3_Ab4AWwaDAHkCN9rsCSasNR0quThNQ?scode=AH0AxweMAF8SC076NW';
 // 没有手游/端游选项的老项目，走这个兜底表单
 const ORDER_FORM_URL = 'https://docs.qq.com/form/page/replace-with-your-form-id';
 
