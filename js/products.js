@@ -144,7 +144,7 @@ const PRODUCTS = [
     desc: '基础保4888w，不出不结单',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(588, '局', '基础保4888w，不出不结单',988),
+    platforms: makePlatforms(588, '单', '基础保4888w，不出不结单',988),
   },
   {
     id: 'd2',
@@ -157,7 +157,7 @@ const PRODUCTS = [
     desc: '基础保底8888w，不出不结单',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(1288, '局', '基础保底8888w，不出不结单',2088),
+    platforms: makePlatforms(1288, '单', '基础保底8888w，不出不结单',2088),
   },
   {
     id: 'd3',
@@ -170,7 +170,7 @@ const PRODUCTS = [
     desc: '基础保底500w，不出不结单',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(58, '局', '基础保底500w，不出不结单',98),
+    platforms: makePlatforms(58, '单', '基础保底500w，不出不结单',98),
   },
   {
     id: 'd4',
@@ -183,7 +183,7 @@ const PRODUCTS = [
     desc: '基础保底2288w，不出不结单',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(288, '局', '基础保底2288w，不出不结单',468),
+    platforms: makePlatforms(288, '单', '基础保底2288w，不出不结单',468),
   },
   {
     id: 'd5',
@@ -196,7 +196,7 @@ const PRODUCTS = [
     desc: '基础保底一个亿，不出不结单',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(3888, '局', '基础保底一个亿，不出不结单',6288),
+    platforms: makePlatforms(3888, '单', '基础保底一个亿，不出不结单',6288),
   },
   {
     id: 'd6',
@@ -209,7 +209,7 @@ const PRODUCTS = [
     desc: '基础保底一个亿，不出不结单',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(3888, '局', '基础保底一个亿，不出不结单',6288),
+    platforms: makePlatforms(3888, '单', '基础保底一个亿，不出不结单',6288),
   },
   {
     id: 'd7',
@@ -222,7 +222,7 @@ const PRODUCTS = [
     desc: '基础保底7888w，不出不结单',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(888, '局', '基础保底7888w，不出不结单',1488),
+    platforms: makePlatforms(888, '单', '基础保底7888w，不出不结单',1488),
   },
   {
     id: 'd8',
@@ -235,7 +235,7 @@ const PRODUCTS = [
     desc: '基础保底两个亿，不出不结单',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(16888, '局', '基础保底两个亿，不出不结单',26888),
+    platforms: makePlatforms(16888, '单', '基础保底两个亿，不出不结单',26888),
   },
   {
     id: 'd9',
@@ -248,7 +248,7 @@ const PRODUCTS = [
     desc: '基础保底两个亿，不出不结单',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(18888, '局', '基础保底两个亿，不出不结单',29888),
+    platforms: makePlatforms(18888, '单', '基础保底两个亿，不出不结单',29888),
   },
 
   // ---------- 趣味单 ----------
@@ -263,7 +263,7 @@ const PRODUCTS = [
     desc: '无基础保底',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(528, '局', '无基础保底',888),
+    platforms: makePlatforms(528, '单', '无基础保底',888),
   },
   {
     id: 'q2',
@@ -276,7 +276,7 @@ const PRODUCTS = [
     desc: '无基础保底',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(1888, '局', '无基础保底',2988),
+    platforms: makePlatforms(1888, '单', '无基础保底',2988),
   },
   {
     id: 'q3',
@@ -289,7 +289,7 @@ const PRODUCTS = [
     desc: '基础保底888w，老板猜对出生点保底翻倍（仅一次机会）开局前和打手确认要猜的出生点',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(178, '局', '基础保底888w，猜对出生点保底翻倍（仅一次机会）',288),
+    platforms: makePlatforms(178, '单', '基础保底888w，猜对出生点保底翻倍（仅一次机会）',288),
   },
   {
     id: 'q4',
@@ -302,7 +302,7 @@ const PRODUCTS = [
     desc: '基础保底788w，老板对局中选择医疗位，打手倒地时每救起一位打手保底＋50w',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(158, '局', '基础保底788w，每救起一位打手保底＋50w',258),
+    platforms: makePlatforms(158, '单', '基础保底788w，每救起一位打手保底＋50w',258),
   },
   {
     id: 'q5',
@@ -315,7 +315,7 @@ const PRODUCTS = [
     desc: '无基础保底，单局需成功撤离并带出四种不同颜色的镭射（红蓝绿紫），不出不结单',
     detail: '对局内出现任何问题请保存录屏联系客服处理',
     notice: '下单前请仔细阅读以下点单须知',
-    platforms: makePlatforms(488, '局', '需带出红蓝绿紫四种镭射，不出不结单',788),
+    platforms: makePlatforms(488, '单', '需带出红蓝绿紫四种镭射，不出不结单',788),
   },
 
   // ---------- 跑刀单 ----------
@@ -330,7 +330,7 @@ const PRODUCTS = [
     desc: '',
     detail: '力求以最快效率完成订单',
     notice: '若对订单有疑问请及时联系客服',
-    platforms: makePlatforms(60, '局', ''),
+    platforms: makePlatforms(60, '单', ''),
   },
 
   /* ------------------------------------------------------------
